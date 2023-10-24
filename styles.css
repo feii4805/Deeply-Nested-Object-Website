@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#milkTea-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.milkTea {
+    background-color: black;
+    width: 150px;
+    height: 290px;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: url('path/cursor1.png'),auto;
+    clip-path: polygon(0% 20%, 100% 20%, 80% 80%, 20% 80%);
+}
+
